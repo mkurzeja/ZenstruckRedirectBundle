@@ -21,6 +21,11 @@ class FixtureLoader implements FixtureInterface
         $redirect2->setDestination('http://www.google.com/');
         $manager->persist($redirect2);
 
+        $redirect3 = new Redirect();
+        $redirect3->setSource('foo/baz/bar#boo');
+        $redirect3->setDestination('http://www.microsoft.com/');
+        $manager->persist($redirect3);
+
         $notfound1 = new Redirect();
         $notfound1->setSource('not/found');
         $manager->persist($notfound1);
