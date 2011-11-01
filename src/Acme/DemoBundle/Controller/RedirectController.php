@@ -12,7 +12,7 @@ use Acme\DemoBundle\Form\RedirectType;
 /**
  * Redirect controller.
  *
- * @Route("/redirect")
+ * @Route("/redirects")
  */
 class RedirectController extends Controller
 {
@@ -91,7 +91,7 @@ class RedirectController extends Controller
             $em->flush();
 
             return $this->redirect($this->generateUrl('redirect_show', array('id' => $entity->getId())));
-            
+
         }
 
         return array(
