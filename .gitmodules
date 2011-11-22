@@ -1,3 +1,0 @@
-[submodule "src/Zenstruck/Bundle/RedirectBundle"]
-	path = src/Zenstruck/Bundle/RedirectBundle
-	url = git@github.com:kbond/ZenstruckRedirectBundle.git

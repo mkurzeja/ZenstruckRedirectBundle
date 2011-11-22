@@ -3,7 +3,7 @@
 ;####################
 [symfony]
     git=http://github.com/symfony/symfony.git
-    version=v2.0.4
+    version=v2.0.6
 
 [twig]
     git=http://github.com/fabpot/Twig.git
@@ -11,7 +11,7 @@
 
 [monolog]
     git=http://github.com/Seldaek/monolog.git
-    version=1.0.1
+    version=1.0.2
 
 [doctrine-common]
     git=http://github.com/doctrine/common.git
@@ -27,7 +27,7 @@
 
 [swiftmailer]
     git=http://github.com/swiftmailer/swiftmailer.git
-    version=v4.1.2
+    version=v4.1.3
 
 [assetic]
     git=http://github.com/kriswallsmith/assetic.git
@@ -38,7 +38,7 @@
 
 [metadata]
     git=http://github.com/schmittjoh/metadata.git
-    version=1.1.0
+    version=1.0.0
 
 [SensioFrameworkExtraBundle]
     git=http://github.com/sensio/SensioFrameworkExtraBundle.git
@@ -78,3 +78,7 @@
 ;#################
 ;# end 3rd Party #
 ;#################
+[ZenstruckContentBundle]
+    git=http://github.com/kbond/ZenstruckRedirectBundle.git
+    target=../src/Zenstruck/Bundle/RedirectBundle
+    version=origin/master
